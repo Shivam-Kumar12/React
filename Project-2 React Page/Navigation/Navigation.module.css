@@ -1,0 +1,26 @@
+.Navigation img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.Navigation ul {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  font-weight: 700;
+}
+
+.Navigation ul :hover {
+  text-shadow: 1px 1px 12px red, 0 0 1em blue, 0 0 0.2em blue;
+  cursor: pointer;
+}
